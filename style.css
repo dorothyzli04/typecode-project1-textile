@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "stubbee";
+	src: url("stubbee.otf") format("opentype");
+}
+
+body {
+	font-family: "stubbee";
+    background-color: #a8c4c3
+}
+
+pre {
+    font-family: "stubbee";
+    font-size: 10px;
+    color: #8f5a62;
+}
+
+.raindrop1 {
+  position: relative;
+  animation: raindrop1 3s infinite;
+  color: #3387a9
+}
+
+@keyframes raindrop1 {
+    from {top: 0px;}
+    to {top: 620px;}
+}
+
+.raindrop2 {
+  position: relative;
+  animation: raindrop2 3s infinite;
+  color: #3387a9
+}
+
+@keyframes raindrop2 {
+    from {top: 0px;}
+    to {top: 520px;}
+}
+
+.raindrop3 {
+  position: relative;
+  animation: raindrop3 3s infinite;
+  color: #3387a9
+}
+
+@keyframes raindrop3 {
+    from {top: 0px;}
+    to {top: 750px;}
+}
