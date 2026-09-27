@@ -25,24 +25,22 @@ pre {
     to {top: 620px;}
 }
 
-.raindrop2 {
-  position: relative;
-  animation: raindrop2 3s infinite;
-  color: #3387a9
+.cloud1 {
+    position: relative;
+    animation: cloud1 80s infinite;
 }
 
-@keyframes raindrop2 {
-    from {top: 0px;}
-    to {top: 520px;}
+@keyframes cloud1 {
+    from {left: 0px;}
+    to {left: 1000px;}
 }
 
-.raindrop3 {
-  position: relative;
-  animation: raindrop3 3s infinite;
-  color: #3387a9
+.cloud2 {
+    position: relative;
+    animation: cloud2 80s infinite;
 }
 
-@keyframes raindrop3 {
-    from {top: 0px;}
-    to {top: 750px;}
+@keyframes cloud2 {
+    from {right: 0px;}
+    to {right:1000px;}
 }
