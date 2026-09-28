@@ -71,6 +71,6 @@ pre {
 }
 
 @keyframes moving {
-    from {left: 100px;}
-    to {left: 0px;}
+    from {right: 0px;}
+    to {right: -100px;}
 }
