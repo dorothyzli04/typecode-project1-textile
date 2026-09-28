@@ -64,3 +64,13 @@ pre {
     from {top: 100px;}
     to {top: 0px;}
 }
+
+.moving {
+    position: relative;
+    animation: moving 10s infinite;
+}
+
+@keyframes moving {
+    from {left: 100px;}
+    to {left: 0px;}
+}
